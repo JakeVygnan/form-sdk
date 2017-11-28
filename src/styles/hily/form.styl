@@ -14,9 +14,10 @@ $control-group
   display block
   min-height 2.5em
   margin-bottom 1em
+  padding 0
 
 form
-  padding 1em 0
+  padding 1em 15px
   max-width 30em
   width 100%
 
@@ -34,14 +35,14 @@ label
 
 input
 select
-  height 3em
+  height 3.5em
   padding 10px;
   width 100%
 
   border-radius 4px
   border 1px solid $input-border-color
   box-sizing border-box
-  font-size: .8em;
+  font-size: 1em;
 
   &:active,
   &:focus
@@ -54,11 +55,12 @@ select
   //box-shadow $input-border-focus-error-shadow
 
 button
-  height 2.4em
+  height 3.5em
   width 100%
   margin 15px 0 0 0
-  padding 0
-
+  padding 0 10px
+  border 0
+  border-radius 3px
   background $submit-button-color
   cursor pointer
   box-sizing border-box
